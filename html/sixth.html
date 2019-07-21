@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>
+            Forms on html
+        </title>
+        <link rel="icon" href="top10.png" type="image/ico">
+    </head>
+     <body>
+        <center>
+            <header>
+                <h1>
+                    FORMS
+                </h1>
+            </header>
+            <hr/>
+        </center>
+    <form>
+        <div>
+            <lable for="fname"> firstname </lable>
+            <input type="text" 
+                   name=fname 
+                   value="firstname" 
+                   placeholder="firstname"
+                   id="fname" 
+                   required/>
+        </div>
+        <div>
+            <lable  for="lname"> lastname </lable>
+            <input  type="text" 
+                    name=lname 
+                    value="lastname" 
+                    placeholder="lastname"
+                    id="lname"/>
+        </div>
+        <div>
+             <lable for="password"> Enter password </lable>
+             <input type="password" 
+                    name=passw
+                    value="password" 
+                    placeholder="password"
+                    id="password"
+                    minlength="8"/>
+        </div>
+        <div>
+            <lable for="emails">Enter Email </lable>
+            <input type="email" 
+                   name="email"
+                   placeholder="Email"
+                   id="emails"/>
+       </div>
+        <div>
+            <lable for="dates">DATE </lable>
+            <input type="date" 
+                   name="date"
+                   placeholder="Date"
+                   id="dates"/>
+        </div>
+        <div>
+            <lable for="upload"> File </lable>
+            <input type="file" 
+                   name="upload"
+                   placeholder="file"
+                   id="upload"/>
+        </div>
+        <div>
+            <lable for="phone" >phone</lable>
+            <input type="phone" 
+                   name="phone"
+                    id="phone"
+                    maxlength="10"/>
+        </div>
+        <div>
+            <lable>
+            <input type="radio" value="female" name="gender"/>female
+            </lable>
+            <label>
+            <input type="radio" value="male" name="gender"/>male
+            </label>
+        </div>
+        <div>
+            <lable>
+                <input type="checkbox" value="javascript"/>javascript
+            </lable>
+            <lable>
+                <input type="checkbox" value="html"/>html
+            </lable>
+            <lable>
+                <input type="checkbox" value="html"/>css
+            </lable>
+        </div>
+        <div>
+            <select>
+                <option value="windows">windows</option>
+                <option value="linux">linux</option>
+                <option value="unix">unix</option>
+            </select>
+        </div>
+        <div>
+            <label>comment</label>
+            <textarea id="comment"></textarea>
+        </div>
+            <button type="submit"> signup </button>
+            <button type="reset"> Reset </button>
+    </form>
+
+    </body>
+</html>
